@@ -1,0 +1,11 @@
+.env
+.ragdoll
+todo
+_*.py
+download
+downloads
+chroma
+_modules
+test.py
+.DS_Store
+.vscode
