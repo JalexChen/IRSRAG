@@ -14,8 +14,11 @@ This command crawls, scrapes, maps out different links available on a website:
 - crawl will download the contents of a webpage and recursively search for additional pages and save them to the chroma db in a format you specify; markdown is default
 - scrape will output the contents of a specific webpage, but does not save the content down; mainly used for discovery
 -  map will recursively map available links, such as pdf, markdown, etc, and save it to the specified directory
+
 `python -m loader.loader` will chunk, tokenize, index, and embed the chunks in the vector database
 `python query_data.py "query"` will extract relevant information from the documents in the vector database, which then calls the OpenAI LLM to provide you with relevant results
 
 # Issues
 I understand that the requirements.txt is... very large. I don't think this should be the case, but I should probably clean this up at some point because honestly there's a lot that shouldn't be in there
+
+Yes, I realize that this did not need to be done with classes, but honestly, I needed the practice, so I did it the way I wanted to. This project likely represents no benefit to anyone in the world except for me, and I'm ok with that.
