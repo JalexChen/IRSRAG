@@ -31,7 +31,7 @@ class DocumentLoader:
 
         except Exception as e:
           print(f"Failed to load documents from {path}: {e}")
- 
+  
     def check_directories(self, path: str) -> None:
       """
       Create directories if it doesn't exist; defaults to "download" unless specified, and makes a subdirectory by filetype
